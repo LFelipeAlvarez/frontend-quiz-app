@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Question, QuizT } from '../../types'
 import './quiz.css'
 import ProgressBar from '../progress-bar/ProgressBar'
+// @ts-ignore
 import confetti from 'canvas-confetti';
 
 interface QuizProps {
